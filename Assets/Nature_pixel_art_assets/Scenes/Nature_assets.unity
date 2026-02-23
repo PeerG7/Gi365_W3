@@ -14381,7 +14381,7 @@ Transform:
   m_GameObject: {fileID: 787731289}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.03, z: 0}
+  m_LocalPosition: {x: -8.17, y: -0.2, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15560,7 +15560,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2.96
+  orthographic size: 9.17
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -15585,7 +15585,7 @@ Transform:
   m_GameObject: {fileID: 1114532401}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.74, y: 0.4, z: -10}
+  m_LocalPosition: {x: 5.35, y: 0.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15932,13 +15932,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab17589ba513e5c4d96e555fb8c15a93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimplePlayer
-  groundDistCheck: 0.6
-  wallDistCheck: 0.4
+  groundDistCheck: 1
+  wallDistCheck: 0.5
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  isGrounded: 1
-  isWalled: 0
+  moveSpeed: 5
+  jumpForce: 5
+  coyoteTimeLimit: 0.5
+  bufferTimeLimit: 0.5
+  wallJumpForce: {x: 10, y: 15}
 --- !u!4 &1232079086 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4674869707922710, guid: 758b8713682e85f4180f6192cd0210fe, type: 3}

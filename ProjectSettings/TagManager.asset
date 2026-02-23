@@ -47,10 +47,10 @@ TagManager:
   - name: BG
     uniqueID: 1169944241
     locked: 0
-  - name: Ground
+  - name: Platform
     uniqueID: 1406169833
     locked: 0
-  - name: Platform
+  - name: Ground
     uniqueID: 1094895531
     locked: 0
   - name: player
