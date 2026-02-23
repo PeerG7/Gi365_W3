@@ -11,7 +11,7 @@ TagManager:
   - Ground
   - Water
   - UI
-  - Player
+  - player
   - 
   - 
   - 
@@ -41,20 +41,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: atmosphere
-    uniqueID: 65651391
+  - name: Sky
+    uniqueID: 3662343309
     locked: 0
-  - name: BG
-    uniqueID: 1169944241
+  - name: Background
+    uniqueID: 3427548635
     locked: 0
   - name: Platform
-    uniqueID: 1406169833
+    uniqueID: 3753440359
     locked: 0
   - name: Ground
-    uniqueID: 1094895531
+    uniqueID: 2972961687
     locked: 0
-  - name: player
-    uniqueID: 2524162247
+  - name: Player
+    uniqueID: 2753146969
     locked: 0
   m_RenderingLayers:
   - Default
